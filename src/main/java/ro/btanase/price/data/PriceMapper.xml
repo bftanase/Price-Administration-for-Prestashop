@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="ro.btanase.data.PriceMapper">
+<mapper namespace="ro.btanase.price.data.PriceMapper">
 	<select id="selectAllProducts" resultType="Product">
 		SELECT 
 		  ps_product.id_product AS productId,

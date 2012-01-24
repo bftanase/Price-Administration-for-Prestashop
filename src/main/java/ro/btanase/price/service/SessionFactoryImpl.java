@@ -1,4 +1,4 @@
-package ro.btanase.service;
+package ro.btanase.price.service;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -28,7 +28,7 @@ public class SessionFactoryImpl implements SessionFactory {
     }
 
     if (sessionFactory == null) {
-      String resource = "ro/btanase/data/SqlMapConfig.xml";
+      String resource = "ro/btanase/price/data/SqlMapConfig.xml";
       Reader reader;
       try {
         reader = Resources.getResourceAsReader(resource);

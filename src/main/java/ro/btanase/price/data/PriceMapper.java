@@ -1,9 +1,9 @@
-package ro.btanase.data;
+package ro.btanase.price.data;
 
 import java.util.List;
 import java.util.Map;
 
-import ro.btanase.data.domain.Product;
+import ro.btanase.price.data.domain.Product;
 
 public interface PriceMapper {
   public List<Product> selectAllProducts();

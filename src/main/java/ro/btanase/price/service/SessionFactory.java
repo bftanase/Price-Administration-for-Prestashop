@@ -1,4 +1,4 @@
-package ro.btanase.service;
+package ro.btanase.price.service;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 

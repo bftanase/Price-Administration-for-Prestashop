@@ -1,4 +1,4 @@
-package ro.btanase;
+package ro.btanase.price;
 
 import java.awt.EventQueue;
 import java.io.IOException;
@@ -11,10 +11,10 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import ro.btanase.dao.ExportDao;
-import ro.btanase.data.PriceMapper;
-import ro.btanase.gui.MainWindow;
-import ro.btanase.guice.PriceImporterModule;
+import ro.btanase.price.dao.ExportDao;
+import ro.btanase.price.data.PriceMapper;
+import ro.btanase.price.gui.MainWindow;
+import ro.btanase.price.guice.PriceImporterModule;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

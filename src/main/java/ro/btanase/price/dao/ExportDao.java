@@ -1,4 +1,4 @@
-package ro.btanase.dao;
+package ro.btanase.price.dao;
 
 public interface ExportDao {
   public void downloadPriceList();

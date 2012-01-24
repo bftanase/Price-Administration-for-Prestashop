@@ -1,4 +1,4 @@
-package ro.btanase.data.domain;
+package ro.btanase.price.data.domain;
 
 public class Product {
   private int productId;

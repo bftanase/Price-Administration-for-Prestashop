@@ -1,12 +1,12 @@
-package ro.btanase.guice;
+package ro.btanase.price.guice;
 
-import ro.btanase.dao.ExportDao;
-import ro.btanase.dao.ExportDaoImpl;
-import ro.btanase.gui.MainWindow;
-import ro.btanase.service.SessionFactory;
-import ro.btanase.service.SessionFactoryImpl;
-import ro.btanase.service.SettingsService;
-import ro.btanase.service.SettingsServiceImpl;
+import ro.btanase.price.dao.ExportDao;
+import ro.btanase.price.dao.ExportDaoImpl;
+import ro.btanase.price.gui.MainWindow;
+import ro.btanase.price.service.SessionFactory;
+import ro.btanase.price.service.SessionFactoryImpl;
+import ro.btanase.price.service.SettingsService;
+import ro.btanase.price.service.SettingsServiceImpl;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.TypeLiteral;

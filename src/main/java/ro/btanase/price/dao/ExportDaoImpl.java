@@ -1,4 +1,4 @@
-package ro.btanase.dao;
+package ro.btanase.price.dao;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -23,9 +23,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.CellRangeAddress;
 
-import ro.btanase.data.PriceMapper;
-import ro.btanase.data.domain.Product;
-import ro.btanase.service.SessionFactory;
+import ro.btanase.price.data.PriceMapper;
+import ro.btanase.price.data.domain.Product;
+import ro.btanase.price.service.SessionFactory;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;

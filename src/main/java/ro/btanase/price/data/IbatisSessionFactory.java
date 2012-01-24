@@ -1,4 +1,4 @@
-package ro.btanase.data;
+package ro.btanase.price.data;
 
 public class IbatisSessionFactory {
 }

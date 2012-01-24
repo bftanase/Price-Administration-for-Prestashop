@@ -5,7 +5,7 @@
 
 <configuration>
 	<typeAliases>
-		<typeAlias type="ro.btanase.data.domain.Product" alias="Product"/>
+		<typeAlias type="ro.btanase.price.data.domain.Product" alias="Product"/>
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
@@ -19,6 +19,6 @@
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="ro/btanase/data/PriceMapper.xml"/>
+		<mapper resource="ro/btanase/price/data/PriceMapper.xml"/>
 	</mappers>
 </configuration>

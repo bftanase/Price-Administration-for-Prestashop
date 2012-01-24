@@ -1,4 +1,4 @@
-package ro.btanase.gui;
+package ro.btanase.price.gui;
 
 import java.awt.Desktop;
 import java.awt.EventQueue;
@@ -35,9 +35,9 @@ import org.apache.ibatis.reflection.ExceptionUtil;
 import org.apache.ibatis.session.SqlSession;
 
 import net.miginfocom.swing.MigLayout;
-import ro.btanase.dao.ExportDao;
-import ro.btanase.service.SessionFactory;
-import ro.btanase.service.SettingsService;
+import ro.btanase.price.dao.ExportDao;
+import ro.btanase.price.service.SessionFactory;
+import ro.btanase.price.service.SettingsService;
 
 import com.google.inject.Inject;
 import java.awt.event.WindowAdapter;
