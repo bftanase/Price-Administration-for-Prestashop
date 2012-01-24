@@ -28,7 +28,7 @@ public class SessionFactoryImpl implements SessionFactory {
     }
 
     if (sessionFactory == null) {
-      String resource = "ro/btanase/price/data/SqlMapConfig.xml";
+      String resource = "mybatis/SqlMapConfig.xml";
       Reader reader;
       try {
         reader = Resources.getResourceAsReader(resource);

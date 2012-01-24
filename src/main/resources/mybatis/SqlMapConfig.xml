@@ -19,6 +19,6 @@
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="ro/btanase/price/data/PriceMapper.xml"/>
+		<mapper resource="mybatis/PriceMapper.xml"/>
 	</mappers>
 </configuration>
